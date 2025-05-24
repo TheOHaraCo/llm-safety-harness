@@ -70,7 +70,7 @@ def test_prompts():
         results.append({
             "prompt": prompt,
             "reply": reply_text.strip(),
-            "flagged": flagged or ""
+            "flagged": flagged or "PASS"
         })
 
     # Save results to file
